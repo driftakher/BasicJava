@@ -21,6 +21,8 @@ public class Array_list {
 				
 		System.out.println("All elements of X "+ x);
 		
+		System.out.println("Elements of 2nd position "+ (x.get(1)));
+		
 		y.add("Rayhan");
 		y.add("Iftakher");
 		y.add("Ahmed");

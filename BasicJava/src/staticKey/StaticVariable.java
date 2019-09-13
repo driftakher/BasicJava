@@ -22,7 +22,7 @@ public class StaticVariable {
 	public static void main(String[] args) {
 		System.out.println(School); //static method can access only static stuff directly. we dont have to create object for that. 
 		m1 (); 
-	//	m2 (); //but for not static method we have to create object. thats why it showing error
+	//	m2 (); //but for non static method we have to create object. thats why it showing error
 		StaticVariable sv = new StaticVariable();
 		sv.m2(); //to access not static variable / method we must have to create object
 		sv.m3();
